@@ -9,7 +9,7 @@
 
 
 ## MD Report:
-DescribeStat Polar.md : [Link Text](DescribeStat%20Polar.md)   
+**DescribeStat Polar.md** : [Link Text](DescribeStat%20Polar.md)   
 **1:** Descriptive Statistics with Polar DataFrame  
 **2:** Summary Statistics (mean, median, standard deviation) with Polar DataFrame  
 **3:** Create one data visualization: the relationship between GDP per capita (constant 2010 US$) and Mortality rate,   infant (per 1,000 live births) 
