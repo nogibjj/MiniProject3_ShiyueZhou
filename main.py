@@ -72,7 +72,7 @@ def save_to_md():
     describe_df_PL = generate_descriptive_statistics(df_Pl)
     summary_stat_pl = generate_summary_statistics(df_Pl)
     markdown_table1_PL = str(describe_df_PL)
-    markdown_table2_PL =str(summary_stat_pl)
+    markdown_table2_PL = str(summary_stat_pl)
 
     # Write the markdown table to a file
     with open("DescribeStat Polar.md", "a") as file:
