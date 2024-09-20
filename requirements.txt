@@ -9,6 +9,7 @@ matplotlib
 numpy
 polars
 pandas
+ruff
 
 
 #web
