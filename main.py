@@ -70,12 +70,17 @@ def save_to_md():
     main()
     df_Pl = load_data_polars(url)
     describe_df_PL = generate_descriptive_statistics(df_Pl)
-    markdown_tablePL = str(describe_df_PL)
+    summary_stat_pl = generate_summary_statistics(df_Pl)
+    markdown_table1_PL = str(describe_df_PL)
+    markdown_table2_PL =str(summary_stat_pl)
 
     # Write the markdown table to a file
     with open("DescribeStat Polar.md", "a") as file:
         file.write("Describe Polar DF:\n")
-        file.write(markdown_tablePL)
+        file.write(markdown_table1_PL)
+        file.write("\n\n")
+        file.write("Summary Polar DF:\n")
+        file.write(markdown_table2_PL)
         file.write("\n\n")
         file.write("![congress_viz](plot_from_data.png)\n")
 
