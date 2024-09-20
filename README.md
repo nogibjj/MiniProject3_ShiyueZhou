@@ -1,5 +1,5 @@
 # MiniProject2_ShiyueZhou
-
+[![CI](https://github.com/nogibjj/MiniProject3_ShiyueZhou/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/MiniProject3_ShiyueZhou/actions/workflows/cicd.yml)
 
 **1. Read a dataset (CSV or Excel) about different**  
    Data from  "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"  
